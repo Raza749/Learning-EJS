@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            <% ["Raza", "Sadia", "Aqsa", "Sidra", "Danish", "Riaz"].map((item) => { %>
+                <%= item %>
+            <% }) %>
+            
+        </h2>
+        <h1> 5 + 8 </h1>
+        <h1> <%= 'raza'.toUpperCase() %> </h1>
+        <h1>
+            This our Home Page
+        </h1>
+        <h1> <%= 5 + 8 %> </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptate totam blanditiis est maxime cumque nam quasi placeat distinctio delectus accusamus laborum dolor nulla voluptatibus illo molestiae voluptates, eos facere!
+        </p>
+        <button>
+            Learn more
+        </button>
+    </div>
+</body>
+</html>
